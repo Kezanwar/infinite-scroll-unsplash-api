@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Unsplash (Infinity Scroll)</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <svg
+        class="header__blob"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#DD6E42"
+          d="M44.6,-61.6C59.4,-50.7,74,-39.7,80.5,-24.9C86.9,-10.1,85.3,8.5,78.2,23.9C71.2,39.4,58.7,51.5,44.8,59.5C30.9,67.5,15.4,71.2,-0.3,71.7C-16.1,72.1,-32.1,69.2,-45.8,61.2C-59.4,53.1,-70.6,39.8,-78.2,23.7C-85.8,7.5,-89.8,-11.5,-84.4,-27.2C-79,-42.9,-64.1,-55.3,-48.4,-66C-32.8,-76.6,-16.4,-85.5,-0.7,-84.5C14.9,-83.5,29.9,-72.6,44.6,-61.6Z"
+          transform="translate(100 100)"
+        />
+      </svg> -->
+      <h1 class="header__title">
+        Unsplash API<br />
+        <br />
+        infinite Scroll
+      </h1>
+
+      <a href="https://github.com/Kezanwar" target="_blank"
+        ><div class="header__logo-container">
+          <h2><span> by kez anwar </span><i class="fab fa-github"></i></h2>
+        </div>
+      </a>
+    </header>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <img class="loader__image" src="/loader/Spinner-1s-251px.svg" alt="" />
+    </div>
+    <!-- Image Container -->
+    <div class="image__container" id="image__container"></div>
+    <!-- Script -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>
