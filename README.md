@@ -2,5 +2,5 @@
 
 Using the Unsplash API and Infinite Scroll functionality with JavaScript :)
 
-View the project here: infinite-scroll-unsplash-api.web.app
+View the project here: https://infinite-scroll-unsplash-api.web.app/
 
